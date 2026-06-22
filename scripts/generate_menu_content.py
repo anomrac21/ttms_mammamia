@@ -9,16 +9,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1] / "content"
 
 ICON = {
-    "antipasti": "https://cdn.ttmenus.com/icons/food/icon-salad.webp",
+    "antipasti": "https://cdn.ttmenus.com/icons/food/icon-salads.webp",
     "pasta": "https://cdn.ttmenus.com/icons/food/icon-pasta.webp",
-    "mains": "https://cdn.ttmenus.com/icons/food/icon-steak.webp",
+    "mains": "https://cdn.ttmenus.com/icons/food/icon-beef.webp",
     "pizza": "https://cdn.ttmenus.com/icons/food/icon-pizza.webp",
-    "breakfast": "https://cdn.ttmenus.com/icons/food/icon-breakfast.webp",
-    "lunch": "https://cdn.ttmenus.com/icons/food/icon-lunch.webp",
-    "drinks": "https://cdn.ttmenus.com/icons/food/icon-cocktail.webp",
-    "wine": "https://cdn.ttmenus.com/icons/food/icon-wine.webp",
-    "beer": "https://cdn.ttmenus.com/icons/food/icon-beer.webp",
-    "kids": "https://cdn.ttmenus.com/icons/food/icon-kids.webp",
+    "pizza_rosse": "https://cdn.ttmenus.com/icons/food/icon-sauce.webp",
+    "pizza_seafood": "https://cdn.ttmenus.com/icons/food/icon-shrimp.webp",
+    "breakfast": "https://cdn.ttmenus.com/icons/food/icon-eggs.webp",
+    "lunch": "https://cdn.ttmenus.com/icons/food/icon-lunchspecial.webp",
+    "drinks": "https://cdn.ttmenus.com/icons/drink/icon-drinks.webp",
+    "wine": "https://cdn.ttmenus.com/icons/drink/icon-wine.webp",
+    "beer": "https://cdn.ttmenus.com/icons/drink/icon-beerglass.webp",
+    "kids": "https://cdn.ttmenus.com/icons/activities/icon-joystick.svg",
 }
 
 SECTIONS = [
@@ -30,9 +32,9 @@ SECTIONS = [
      "Mains, steaks, seafood, and handmade burgers with house chips."),
     ("pizza", "Pizza", 4, ICON["pizza"],
      "Classic, white, meat, and seafood pizzas from our wood-fired oven."),
-    ("pizza-rosse", "Pizza Rosse", 5, ICON["pizza"],
+    ("pizza-rosse", "Pizza Rosse", 5, ICON["pizza_rosse"],
      "Red pizzas with tomato sauce."),
-    ("pizza-seafood-special", "Seafood & Special Pizza", 6, ICON["pizza"],
+    ("pizza-seafood-special", "Seafood & Special Pizza", 6, ICON["pizza_seafood"],
      "Seafood red pizzas, calzone-style favourites, and the Vulcano."),
     ("kids", "Kids Corner", 7, ICON["kids"],
      "Per i più piccoli — pasta, pizza shapes, and sliders."),
