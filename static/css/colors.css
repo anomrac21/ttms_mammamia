@@ -1,32 +1,61 @@
 :root {
-    --hero-bg-image-fg-color: #f4dec3;
-    --contact-info-bg: none;
-    --button-text-color2: #ffffff;
-    --main-bg-color: #f4dec3;
-    --menu-bg-color-1: #22273111;
-    --header-bordercolor-1: #dfeed4ff;
-    --modal-bg-container-color: #00000055;
-    --selected-button-color3: #fff;
-    --header-color: #000000ed;
-    --header-bg-color: #222731ee;
-    --selected-button-color4: #000000ee;
-    --button-color2: #000;
-    --header-bordercolor-2: #dfeed4ff;
-    --selected-text-color2: #fff;
-    --header-icon-color: #fefefe;
-    --menu-bg-color-2: #00000055;
-    --button-color1: #222731;
-    --selected-button-color2: #200;
-    --footer-text-color: #000;
-    --hero-text-color: #000;
-    --header-bg-image: none;
-    --button-text-color3: #fff;
-    --selected-text-color3: #85181c;
-    --selected-button-color1: #200;
-    --button-text-color1: #fefefe;
-    --main-text-color: #ffffff;
-    --main-bg: #000;
-    --footer-bg-color: #fefefe;
-    --selected-text-color1: #fff;
-    --hero-bg-color: #000000;
+  /* MammaMia 2026 Elegant Menu — parchment, black type, gold accents */
+
+  /* Brand palette */
+  --mm-cream: #faf9f6;
+  --mm-cream-warm: #f5f0e8;
+  --mm-parchment: #f5f2eb;
+  --mm-gold: #c5a059;
+  --mm-gold-dark: #a68844;
+  --mm-red: #e31b23;
+  --mm-ink: #000000;
+  --mm-ink-soft: #1a1a1a;
+
+  /* Header */
+  --header-color: #1a1a1aee;
+  --header-bg-color: #1a1a1aee;
+  --header-text-color: var(--mm-cream);
+  --header-icon-color: var(--mm-red);
+  --header-text-shadow-color: #00000040;
+  --header-bordercolor-1: var(--mm-gold);
+  --header-bordercolor-2: var(--mm-gold-dark);
+  --header-bg-image: none;
+
+  /* Hero / home */
+  --hero-bg-color: var(--mm-cream);
+  --hero-bg-image-fg-color: var(--mm-gold);
+  --hero-text-color: var(--mm-ink);
+  --contact-info-bg: var(--mm-ink-soft);
+
+  /* Main content (menu pages, reels backdrop) */
+  --main-bg: var(--mm-cream);
+  --main-bg-color: var(--mm-cream);
+  --main-text-color: var(--mm-ink);
+  --background-color: var(--mm-cream);
+
+  /* Menu section blocks (home menublocks) */
+  --menu-bg-color-1: #2a2520;
+  --menu-bg-color-2: #1a1814;
+  --menu-text-color: var(--mm-cream);
+
+  /* Buttons */
+  --button-color1: var(--mm-ink-soft);
+  --button-color2: var(--mm-ink);
+  --button-text-color1: var(--mm-cream);
+  --button-text-color2: var(--mm-cream);
+  --button-text-color3: var(--mm-ink);
+
+  /* Selected / active (gold accent from menu flourish & borders) */
+  --selected-button-color1: var(--mm-gold);
+  --selected-button-color2: var(--mm-gold-dark);
+  --selected-button-color3: var(--mm-cream);
+  --selected-button-color4: #1a1a1aee;
+  --selected-text-color1: var(--mm-ink);
+  --selected-text-color2: var(--mm-cream);
+  --selected-text-color3: var(--mm-gold-dark);
+
+  /* Footer & modals */
+  --footer-bg-color: #1a1a1aee;
+  --footer-text-color: var(--mm-cream);
+  --modal-bg-container-color: #00000055;
 }

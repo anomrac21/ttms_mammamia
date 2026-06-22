@@ -1,9 +1,9 @@
 ---
 title: "MammaMia"
-image: ""
+image: /branding/favicon192.webp
 images:
-    - image: ""
+    - image: /branding/favicon192.webp
 slideshow: []
 ---
 
-<p>TTMenus Menu System.</p>
+
