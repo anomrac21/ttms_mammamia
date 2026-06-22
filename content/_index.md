@@ -1,8 +1,8 @@
 ---
-title: "{{SITE_TITLE}}"
-image: "{{HERO_IMAGE}}"
+title: "MammaMia"
+image: ""
 images:
-    - image: "{{HERO_IMAGE}}"
+    - image: ""
 slideshow: []
 ---
 
