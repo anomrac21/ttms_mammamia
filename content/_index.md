@@ -1,8 +1,6 @@
 ---
 title: "MammaMia"
-image: /branding/favicon192.webp
-images:
-    - image: /branding/favicon192.webp
+image: /images/a-pizza-with-cheese-and-basil.webp
 slideshow: []
 ---
 

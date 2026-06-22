@@ -13,8 +13,8 @@
 
   /* Header */
   --header-color: #1a1a1aee;
-  --header-bg-color: #1a1a1aee;
-  --header-text-color: var(--mm-cream);
+  --header-bg-color: #e4e4e4ee;
+  --header-text-color: #000000;
   --header-icon-color: var(--mm-red);
   --header-text-shadow-color: #00000040;
   --header-bordercolor-1: var(--mm-gold);
@@ -34,15 +34,15 @@
   --background-color: var(--mm-cream);
 
   /* Menu section blocks (home menublocks) */
-  --menu-bg-color-1: #2a2520;
-  --menu-bg-color-2: #1a1814;
-  --menu-text-color: var(--mm-cream);
+  --menu-bg-color-1: #e4e4e4;
+  --menu-bg-color-2: #b3b3b3;
+  --menu-text-color: #000000;
 
   /* Buttons */
-  --button-color1: var(--mm-ink-soft);
-  --button-color2: var(--mm-ink);
-  --button-text-color1: var(--mm-cream);
-  --button-text-color2: var(--mm-cream);
+  --button-color1: #e4e4e4;
+  --button-color2: #b3b3b3;
+  --button-text-color1: #000000;
+  --button-text-color2: #000000;
   --button-text-color3: var(--mm-ink);
 
   /* Selected / active (gold accent from menu flourish & borders) */
@@ -50,7 +50,7 @@
   --selected-button-color2: var(--mm-gold-dark);
   --selected-button-color3: var(--mm-cream);
   --selected-button-color4: #1a1a1aee;
-  --selected-text-color1: var(--mm-ink);
+  --selected-text-color1: var(--mm-cream);
   --selected-text-color2: var(--mm-cream);
   --selected-text-color3: var(--mm-gold-dark);
 
