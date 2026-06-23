@@ -1,5 +1,9 @@
 ---
 title: Promotions
 weight: "1"
-icon: https://cdn.ttmenus.com/icons/business/advertising.svg
+icon: images/mammamia-promo.webp
+image: images/mammamia-promo.webp
+images:
+  top: images/mammamia-promo.webp
+  bottom: images/mammamia-hero-spread.webp
 ---

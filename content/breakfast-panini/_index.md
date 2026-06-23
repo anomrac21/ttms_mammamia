@@ -1,7 +1,11 @@
 ---
 title: Breakfast & Panini
 weight: 8
-icon: https://cdn.ttmenus.com/icons/food/icon-eggs.webp
+icon: images/mammamia-breakfast.webp
+image: images/mammamia-breakfast.webp
+images:
+  top: images/mammamia-breakfast.webp
+  bottom: images/mammamia-panini.webp
 ---
 
 Farm-fresh eggs and panini, served 10am–5pm.
