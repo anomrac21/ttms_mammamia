@@ -7,46 +7,47 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1] / "content"
+IMAGES = "images"
 
-ICON = {
-    "antipasti": "https://cdn.ttmenus.com/icons/food/icon-salads.webp",
-    "pasta": "https://cdn.ttmenus.com/icons/food/icon-pasta.webp",
-    "mains": "https://cdn.ttmenus.com/icons/food/icon-beef.webp",
-    "pizza": "https://cdn.ttmenus.com/icons/food/icon-pizza.webp",
-    "pizza_rosse": "https://cdn.ttmenus.com/icons/food/icon-sauce.webp",
-    "pizza_seafood": "https://cdn.ttmenus.com/icons/food/icon-shrimp.webp",
-    "breakfast": "https://cdn.ttmenus.com/icons/food/icon-eggs.webp",
-    "lunch": "https://cdn.ttmenus.com/icons/food/icon-lunchspecial.webp",
-    "drinks": "https://cdn.ttmenus.com/icons/drink/icon-drinks.webp",
-    "wine": "https://cdn.ttmenus.com/icons/drink/icon-wine.webp",
-    "beer": "https://cdn.ttmenus.com/icons/drink/icon-beerglass.webp",
-    "kids": "https://cdn.ttmenus.com/icons/activities/icon-joystick.svg",
+SECTION_IMAGES = {
+    "antipasti-salads": "mammamia-antipasti.webp",
+    "pasta": "mammamia-pasta.webp",
+    "secondi-burgers": "mammamia-steak.webp",
+    "pizza": "a-pizza-with-cheese-and-basil.webp",
+    "pizza-rosse": "mammamia-pizza-rosse.webp",
+    "pizza-seafood-special": "mammamia-seafood-pizza.webp",
+    "kids": "mammamia-kids-pizza.webp",
+    "breakfast-panini": "mammamia-breakfast.webp",
+    "special-lunch": "mammamia-lunch.webp",
+    "drinks-desserts": "mammamia-dessert.webp",
+    "wines": "mammamia-wine.webp",
+    "beer": "mammamia-beer.webp",
 }
 
 SECTIONS = [
-    ("antipasti-salads", "Antipasti & Salads", 1, ICON["antipasti"],
+    ("antipasti-salads", "Antipasti & Salads", 1,
      "Starters, soups, and salads with house vinaigrette."),
-    ("pasta", "Pasta (Fatta a Mano)", 2, ICON["pasta"],
+    ("pasta", "Pasta (Fatta a Mano)", 2,
      "Handmade pasta — cooked al dente the Italian way."),
-    ("secondi-burgers", "Secondi Piatti & Burgers", 3, ICON["mains"],
+    ("secondi-burgers", "Secondi Piatti & Burgers", 3,
      "Mains, steaks, seafood, and handmade burgers with house chips."),
-    ("pizza", "Pizza", 4, ICON["pizza"],
+    ("pizza", "Pizza", 4,
      "Classic, white, meat, and seafood pizzas from our wood-fired oven."),
-    ("pizza-rosse", "Pizza Rosse", 5, ICON["pizza_rosse"],
+    ("pizza-rosse", "Pizza Rosse", 5,
      "Red pizzas with tomato sauce."),
-    ("pizza-seafood-special", "Seafood & Special Pizza", 6, ICON["pizza_seafood"],
+    ("pizza-seafood-special", "Seafood & Special Pizza", 6,
      "Seafood red pizzas, calzone-style favourites, and the Vulcano."),
-    ("kids", "Kids Corner", 7, ICON["kids"],
+    ("kids", "Kids Corner", 7,
      "Per i più piccoli — pasta, pizza shapes, and sliders."),
-    ("breakfast-panini", "Breakfast & Panini", 8, ICON["breakfast"],
+    ("breakfast-panini", "Breakfast & Panini", 8,
      "Farm-fresh eggs and panini, served 10am–5pm."),
-    ("special-lunch", "Special Lunch", 9, ICON["lunch"],
+    ("special-lunch", "Special Lunch", 9,
      "Weekday lunch specials, Mon–Fri 11am–3pm."),
-    ("drinks-desserts", "Drinks & Desserts", 10, ICON["drinks"],
+    ("drinks-desserts", "Drinks & Desserts", 10,
      "Soft drinks, smoothies, house desserts, and caffetteria."),
-    ("wines", "Wine List", 11, ICON["wine"],
+    ("wines", "Wine List", 11,
      "Imported Italian wines — glass and bottle."),
-    ("beer", "Beer", 12, ICON["beer"],
+    ("beer", "Beer", 12,
      "Premium Italian and European beers."),
 ]
 
@@ -91,13 +92,16 @@ def render_item(item: Item, weight: int) -> str:
         lines.append("")
     return "\n".join(lines)
 
-def write_section(section_slug: str, title: str, weight: int, icon: str, desc: str, items: list[Item]) -> None:
+def write_section(section_slug: str, title: str, weight: int, desc: str, items: list[Item]) -> None:
     section_dir = ROOT / section_slug
     section_dir.mkdir(parents=True, exist_ok=True)
+    image_file = SECTION_IMAGES[section_slug]
     index = f"""---
 title: {title}
 weight: {weight}
-icon: {icon}
+icon: {IMAGES}/{image_file}
+images:
+    primary: {IMAGES}/{image_file}
 ---
 
 {desc}
@@ -520,17 +524,35 @@ ITEMS["beer"] = [
 ]
 
 def main() -> None:
-    for section_slug, title, weight, icon, desc in SECTIONS:
+    for section_slug, title, weight, desc in SECTIONS:
         items = ITEMS.get(section_slug, [])
-        write_section(section_slug, title, weight, icon, desc, items)
+        write_section(section_slug, title, weight, desc, items)
         print(f"  {section_slug}: {len(items)} items")
 
-    home = """---
+    promo_dir = ROOT / "promotions"
+    promo_dir.mkdir(parents=True, exist_ok=True)
+    (promo_dir / "_index.md").write_text(
+        "---\n"
+        "title: Promotions\n"
+        "weight: 1\n"
+        f"icon: {IMAGES}/mammamia-promo.webp\n"
+        "images:\n"
+        f"    primary: {IMAGES}/mammamia-promo.webp\n"
+        "---\n",
+        encoding="utf-8",
+    )
+
+    home = f"""---
 title: "MammaMia"
-image: /branding/favicon192.webp
+image: {IMAGES}/a-pizza-with-cheese-and-basil.webp
 images:
-    - image: /branding/favicon192.webp
-slideshow: []
+    - image: {IMAGES}/a-pizza-with-cheese-and-basil.webp
+    - image: {IMAGES}/mammamia-hero-spread.webp
+slideshow:
+    - image: {IMAGES}/mammamia-pasta.webp
+    - image: {IMAGES}/a-pizza-with-cheese-and-basil.webp
+    - image: {IMAGES}/mammamia-wine.webp
+    - image: {IMAGES}/mammamia-dessert.webp
 ---
 
 <p>Benvenuti — authentic Italian restaurant & pizzeria at Grand Bazaar, Arima, Maraval, and Valpark. Handmade pasta, wood-fired pizza, and the full Italian experience.</p>

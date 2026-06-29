@@ -1,0 +1,16 @@
+Client-owned section images:
+
+- promotions — mammamia-promo.webp
+- antipasti-salads — mammamia-antipasti.webp
+- pasta — mammamia-pasta.webp
+- secondi-burgers — mammamia-steak.webp
+- pizza — a-pizza-with-cheese-and-basil.webp
+- pizza-rosse — mammamia-pizza-rosse.webp
+- pizza-seafood-special — mammamia-seafood-pizza.webp
+- kids — mammamia-kids-pizza.webp
+- breakfast-panini — mammamia-breakfast.webp
+- special-lunch — mammamia-lunch.webp
+- drinks-desserts — mammamia-dessert.webp
+- wines — mammamia-wine.webp
+- beer — mammamia-beer.webp
+- Home slideshow uses mammamia-* and a-pizza-with-cheese-and-basil.webp
