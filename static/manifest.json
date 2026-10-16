@@ -51,6 +51,8 @@
         }
     ],
     "name": "MammaMia",
+    "id": "/",
+    "scope": "/",
     "screenshots": [
         {
             "form_factor": "wide",
@@ -67,6 +69,6 @@
         }
     ],
     "short_name": "MammaMia",
-    "start_url": ".",
+    "start_url": "/",
     "theme_color": "#e31b23"
 }

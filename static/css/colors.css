@@ -1,61 +1,75 @@
 :root {
-  /* MammaMia 2026 Elegant Menu — parchment, black type, gold accents */
+    /* MammaMia brand: parchment, black type, gold accents */
+    --mm-cream: #faf9f6;
+    --mm-cream-warm: #f5f0e8;
+    --mm-parchment: #f5f2eb;
+    --mm-gold: #c5a059;
+    --mm-gold-dark: #a68844;
+    --mm-red: #e31b23;
+    --mm-ink: #000000;
+    --mm-ink-soft: #1a1a1a;
 
-  /* Brand palette */
-  --mm-cream: #faf9f6;
-  --mm-cream-warm: #f5f0e8;
-  --mm-parchment: #f5f2eb;
-  --mm-gold: #c5a059;
-  --mm-gold-dark: #a68844;
-  --mm-red: #e31b23;
-  --mm-ink: #000000;
-  --mm-ink-soft: #1a1a1a;
+    /* Header */
+    --header-color: #e4e4e4;
+    --header-bg-color: #e4e4e4;
+    --header-text-color: #000000;
+    --header-text-shadow-color: #00000040;
+    --header-icon-color: #e31b23;
+    --header-bordercolor-1: #c5a059;
+    --header-bordercolor-2: #a68844;
+    --header-border-color: #c5a059;
+    --header-bg-image: none;
 
-  /* Header */
-  --header-color: #1a1a1aee;
-  --header-bg-color: #e4e4e4ee;
-  --header-text-color: #000000;
-  --header-icon-color: var(--mm-red);
-  --header-text-shadow-color: #00000040;
-  --header-bordercolor-1: var(--mm-gold);
-  --header-bordercolor-2: var(--mm-gold-dark);
-  --header-bg-image: none;
+    /* Hero */
+    --hero-bg-color: #faf9f6;
+    --hero-bg-color-1: #faf9f6;
+    --hero-bg-color-2: #faf9f6;
+    --hero-bg-image-fg-color: #c5a059;
+    --hero-text-color: #000000;
+    --hero-features-icon-color: #e31b23;
+    --hero-features-icon-bg-color: #e4e4e4;
+    --hero-border-color: #c5a059;
+    --contact-info-bg: #1a1a1a;
 
-  /* Hero / home */
-  --hero-bg-color: var(--mm-cream);
-  --hero-bg-image-fg-color: var(--mm-gold);
-  --hero-text-color: var(--mm-ink);
-  --contact-info-bg: var(--mm-ink-soft);
+    /* Main */
+    --main-bg: #faf9f6;
+    --main-bg-color: #faf9f6;
+    --main-text-color: #000000;
+    --background-color: #faf9f6;
 
-  /* Main content (menu pages, reels backdrop) */
-  --main-bg: var(--mm-cream);
-  --main-bg-color: var(--mm-cream);
-  --main-text-color: var(--mm-ink);
-  --background-color: var(--mm-cream);
+    /* Menu */
+    --menu-bg-color-1: #e4e4e4;
+    --menu-bg-color-2: #b3b3b3;
+    --menu-text-color: #000000;
 
-  /* Menu section blocks (home menublocks) */
-  --menu-bg-color-1: #e4e4e4;
-  --menu-bg-color-2: #b3b3b3;
-  --menu-text-color: #000000;
+    /* Buttons */
+    --button-color1: #e4e4e4;
+    --button-color2: #b3b3b3;
+    --button-text-color1: #000000;
+    --button-text-color2: #000000;
+    --button-text-color3: #000000;
+    --favorite-color: #c5a059;
 
-  /* Buttons */
-  --button-color1: #e4e4e4;
-  --button-color2: #b3b3b3;
-  --button-text-color1: #000000;
-  --button-text-color2: #000000;
-  --button-text-color3: var(--mm-ink);
+    /* Selected */
+    --selected-button-color1: #c5a059;
+    --selected-button-color2: #a68844;
+    --selected-button-color3: #e31b23;
+    --selected-button-color4: #1a1a1a;
+    --selected-text-color1: #faf9f6;
+    --selected-text-color2: #faf9f6;
+    --selected-text-color3: #faf9f6;
+    --select-color: #e31b23;
 
-  /* Selected / active (gold accent from menu flourish & borders) */
-  --selected-button-color1: var(--mm-gold);
-  --selected-button-color2: var(--mm-gold-dark);
-  --selected-button-color3: var(--mm-cream);
-  --selected-button-color4: #1a1a1aee;
-  --selected-text-color1: var(--mm-cream);
-  --selected-text-color2: var(--mm-cream);
-  --selected-text-color3: var(--mm-gold-dark);
+    /* Accent */
+    --accent-color: #c5a059;
+    --accent-text-color: #000000;
+    --accent-glow-color: #f5f0e8;
 
-  /* Footer & modals */
-  --footer-bg-color: #1a1a1aee;
-  --footer-text-color: var(--mm-cream);
-  --modal-bg-container-color: #00000055;
+    /* Footer */
+    --footer-bg-color: #1a1a1a;
+    --footer-text-color: #faf9f6;
+    --footer-icon-color: #faf9f6;
+
+    /* Modal */
+    --modal-bg-container-color: #000000;
 }

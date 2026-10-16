@@ -1,0 +1,1033 @@
+{
+  "multi_location_menus": true,
+  "shared": [
+    {
+      "section": "antipasti-salads",
+      "file": "bruschetta-pomodoro",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/bruschetta-pomodoro.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "caprese",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/caprese.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "couscous",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/couscous.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "crostini",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/crostini.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "impepata-cozze",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/impepata-cozze.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "lite-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/lite-salad.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "pollo-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/pollo-salad.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "polpetta-mac-cheese",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/polpetta-mac-cheese.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "quinoa-bowl",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/quinoa-bowl.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "salad-add-ons",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/salad-add-ons.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "salmone-affumicato",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/salmone-affumicato.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "salmone-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/salmone-salad.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "tartara-tonno",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/tartara-tonno.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "warm-lentil",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/warm-lentil.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "wild-greens",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/wild-greens.md"
+    },
+    {
+      "section": "antipasti-salads",
+      "file": "zuppa-zucca",
+      "authoring": "shared",
+      "content_path": "content/_shared/antipasti-salads/zuppa-zucca.md"
+    },
+    {
+      "section": "beer",
+      "file": "pilsner-gluten-free",
+      "authoring": "shared",
+      "content_path": "content/_shared/beer/pilsner-gluten-free.md"
+    },
+    {
+      "section": "beer",
+      "file": "pilsner",
+      "authoring": "shared",
+      "content_path": "content/_shared/beer/pilsner.md"
+    },
+    {
+      "section": "beer",
+      "file": "strong-ale",
+      "authoring": "shared",
+      "content_path": "content/_shared/beer/strong-ale.md"
+    },
+    {
+      "section": "beer",
+      "file": "vienna",
+      "authoring": "shared",
+      "content_path": "content/_shared/beer/vienna.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "breakfast-coffee",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/breakfast-coffee.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "caprese-panini",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/caprese-panini.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "dutch-baby",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/dutch-baby.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "egg-benedict",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/egg-benedict.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "eggs-any-way",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/eggs-any-way.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "eggs-in-purgatory",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/eggs-in-purgatory.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "english-fry-up",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/english-fry-up.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "fish-panini",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/fish-panini.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "french-toast",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/french-toast.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "giardino-panini",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/giardino-panini.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "pancakes",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/pancakes.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "pollo-blt-panini",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/pollo-blt-panini.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "shrimp-panini",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/shrimp-panini.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "slider-panini",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/slider-panini.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "slider-shrimp-panini",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/slider-shrimp-panini.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "steak-and-eggs",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/steak-and-eggs.md"
+    },
+    {
+      "section": "breakfast-panini",
+      "file": "steak-panini",
+      "authoring": "shared",
+      "content_path": "content/_shared/breakfast-panini/steak-panini.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "affogato",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/affogato.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "caffetteria",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/caffetteria.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "gelato",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/gelato.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "italian-water-sparkling",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/italian-water-sparkling.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "italian-water-still",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/italian-water-still.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "juices",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/juices.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "lemonade",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/lemonade.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "limoncello-grappa",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/limoncello-grappa.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "llb",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/llb.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "panna-cotta",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/panna-cotta.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "san-pellegrino-arancia",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/san-pellegrino-arancia.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "smoothie",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/smoothie.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "soft-drinks",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/soft-drinks.md"
+    },
+    {
+      "section": "drinks-desserts",
+      "file": "tiramisu",
+      "authoring": "shared",
+      "content_path": "content/_shared/drinks-desserts/tiramisu.md"
+    },
+    {
+      "section": "kids",
+      "file": "kids-pizza",
+      "authoring": "shared",
+      "content_path": "content/_shared/kids/kids-pizza.md"
+    },
+    {
+      "section": "kids",
+      "file": "pizza-toppings-18",
+      "authoring": "shared",
+      "content_path": "content/_shared/kids/pizza-toppings-18.md"
+    },
+    {
+      "section": "kids",
+      "file": "pizza-toppings-24",
+      "authoring": "shared",
+      "content_path": "content/_shared/kids/pizza-toppings-24.md"
+    },
+    {
+      "section": "kids",
+      "file": "pizza-toppings-8",
+      "authoring": "shared",
+      "content_path": "content/_shared/kids/pizza-toppings-8.md"
+    },
+    {
+      "section": "pasta",
+      "file": "beef-lasagna",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/beef-lasagna.md"
+    },
+    {
+      "section": "pasta",
+      "file": "gnocchi",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/gnocchi.md"
+    },
+    {
+      "section": "pasta",
+      "file": "pappardelle-ragu",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/pappardelle-ragu.md"
+    },
+    {
+      "section": "pasta",
+      "file": "parmigiana-melanzane",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/parmigiana-melanzane.md"
+    },
+    {
+      "section": "pasta",
+      "file": "pasta-bimbo",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/pasta-bimbo.md"
+    },
+    {
+      "section": "pasta",
+      "file": "pasta-di-mare",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/pasta-di-mare.md"
+    },
+    {
+      "section": "pasta",
+      "file": "ravioli-carne-mascarpone",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/ravioli-carne-mascarpone.md"
+    },
+    {
+      "section": "pasta",
+      "file": "ravioli-pesce",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/ravioli-pesce.md"
+    },
+    {
+      "section": "pasta",
+      "file": "ravioli-ricotta",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/ravioli-ricotta.md"
+    },
+    {
+      "section": "pasta",
+      "file": "spaghetti-pomodoro",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/spaghetti-pomodoro.md"
+    },
+    {
+      "section": "pasta",
+      "file": "tagliatelle-mammamia",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/tagliatelle-mammamia.md"
+    },
+    {
+      "section": "pasta",
+      "file": "tagliatelle-pollo-formaggio",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/tagliatelle-pollo-formaggio.md"
+    },
+    {
+      "section": "pasta",
+      "file": "tagliatelle-pollo-peperoni",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/tagliatelle-pollo-peperoni.md"
+    },
+    {
+      "section": "pasta",
+      "file": "tagliatelle-pollo-toscano",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/tagliatelle-pollo-toscano.md"
+    },
+    {
+      "section": "pasta",
+      "file": "tagliatelle-salmone",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/tagliatelle-salmone.md"
+    },
+    {
+      "section": "pasta",
+      "file": "tagliatelle-salsiccia-funghi",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/tagliatelle-salsiccia-funghi.md"
+    },
+    {
+      "section": "pasta",
+      "file": "tagliatelle-vegetariane",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/tagliatelle-vegetariane.md"
+    },
+    {
+      "section": "pizza",
+      "file": "campagnola",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/campagnola.md"
+    },
+    {
+      "section": "pizza",
+      "file": "carbonara",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/carbonara.md"
+    },
+    {
+      "section": "pizza",
+      "file": "classico",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/classico.md"
+    },
+    {
+      "section": "pizza",
+      "file": "coccod",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/coccod.md"
+    },
+    {
+      "section": "pizza",
+      "file": "focaccia",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/focaccia.md"
+    },
+    {
+      "section": "pizza",
+      "file": "fuoco",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/fuoco.md"
+    },
+    {
+      "section": "pizza",
+      "file": "gallina",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/gallina.md"
+    },
+    {
+      "section": "pizza",
+      "file": "maialona",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/maialona.md"
+    },
+    {
+      "section": "pizza",
+      "file": "marina-05",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/marina-05.md"
+    },
+    {
+      "section": "pizza",
+      "file": "peperino",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/peperino.md"
+    },
+    {
+      "section": "pizza",
+      "file": "pesto",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/pesto.md"
+    },
+    {
+      "section": "pizza",
+      "file": "piccante",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/piccante.md"
+    },
+    {
+      "section": "pizza",
+      "file": "quattro-formaggi-bianca",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/quattro-formaggi-bianca.md"
+    },
+    {
+      "section": "pizza",
+      "file": "rocket",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/rocket.md"
+    },
+    {
+      "section": "pizza",
+      "file": "ss-carina",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/ss-carina.md"
+    },
+    {
+      "section": "pizza",
+      "file": "tricolore",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/tricolore.md"
+    },
+    {
+      "section": "pizza",
+      "file": "vegetariano",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza/vegetariano.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "amore-in-citta",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/amore-in-citta.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "capricciosa",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/capricciosa.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "caprina",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/caprina.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "cinque-formaggi",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/cinque-formaggi.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "contadina",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/contadina.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "cow-boy",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/cow-boy.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "diavola",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/diavola.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "ham-funghi",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/ham-funghi.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "ham",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/ham.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "hannibal",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/hannibal.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "hawaii",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/hawaii.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "inferno",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/inferno.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "mammamia-pizza",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/mammamia-pizza.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "margherita",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/margherita.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "marinara",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/marinara.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "meat-forever",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/meat-forever.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "paella",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/paella.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "pepperoni",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/pepperoni.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "pollo",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/pollo.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "primavera",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/primavera.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "prosciutto-funghi",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/prosciutto-funghi.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "prosciutto",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/prosciutto.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "quattro-stagioni",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/quattro-stagioni.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "rustica",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/rustica.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "salame",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/salame.md"
+    },
+    {
+      "section": "pizza-rosse",
+      "file": "veggy",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-rosse/veggy.md"
+    },
+    {
+      "section": "pizza-seafood-special",
+      "file": "diamante",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-seafood-special/diamante.md"
+    },
+    {
+      "section": "pizza-seafood-special",
+      "file": "gamberetti",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-seafood-special/gamberetti.md"
+    },
+    {
+      "section": "pizza-seafood-special",
+      "file": "mare-monti",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-seafood-special/mare-monti.md"
+    },
+    {
+      "section": "pizza-seafood-special",
+      "file": "napoli",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-seafood-special/napoli.md"
+    },
+    {
+      "section": "pizza-seafood-special",
+      "file": "oceano",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-seafood-special/oceano.md"
+    },
+    {
+      "section": "pizza-seafood-special",
+      "file": "scoglio",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-seafood-special/scoglio.md"
+    },
+    {
+      "section": "pizza-seafood-special",
+      "file": "siciliana",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-seafood-special/siciliana.md"
+    },
+    {
+      "section": "pizza-seafood-special",
+      "file": "slider-pizza",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-seafood-special/slider-pizza.md"
+    },
+    {
+      "section": "pizza-seafood-special",
+      "file": "tobago",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-seafood-special/tobago.md"
+    },
+    {
+      "section": "pizza-seafood-special",
+      "file": "trinidad",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-seafood-special/trinidad.md"
+    },
+    {
+      "section": "pizza-seafood-special",
+      "file": "vulcano",
+      "authoring": "shared",
+      "content_path": "content/_shared/pizza-seafood-special/vulcano.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "bistecca-manzo",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/bistecca-manzo.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "burger-add-ons",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/burger-add-ons.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "coste-agnello",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/coste-agnello.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "cotoletta-pollo",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/cotoletta-pollo.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "grilled-salmon-fillet",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/grilled-salmon-fillet.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "il-padrino",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/il-padrino.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "il-pastore",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/il-pastore.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "il-siciliano",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/il-siciliano.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "mamma-burger",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/mamma-burger.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "pollo-arrosto",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/pollo-arrosto.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "stinco-agnello",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/stinco-agnello.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "tuscan-chicken",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/tuscan-chicken.md"
+    },
+    {
+      "section": "secondi-burgers",
+      "file": "zuppa-di-mare",
+      "authoring": "shared",
+      "content_path": "content/_shared/secondi-burgers/zuppa-di-mare.md"
+    },
+    {
+      "section": "special-lunch",
+      "file": "lunch-chicken-potatoes",
+      "authoring": "shared",
+      "content_path": "content/_shared/special-lunch/lunch-chicken-potatoes.md"
+    },
+    {
+      "section": "special-lunch",
+      "file": "lunch-grilled-chicken-veg",
+      "authoring": "shared",
+      "content_path": "content/_shared/special-lunch/lunch-grilled-chicken-veg.md"
+    },
+    {
+      "section": "special-lunch",
+      "file": "lunch-grilled-fish-veg",
+      "authoring": "shared",
+      "content_path": "content/_shared/special-lunch/lunch-grilled-fish-veg.md"
+    },
+    {
+      "section": "special-lunch",
+      "file": "lunch-shrimp-potatoes",
+      "authoring": "shared",
+      "content_path": "content/_shared/special-lunch/lunch-shrimp-potatoes.md"
+    },
+    {
+      "section": "special-lunch",
+      "file": "lunch-tuscan-chicken",
+      "authoring": "shared",
+      "content_path": "content/_shared/special-lunch/lunch-tuscan-chicken.md"
+    },
+    {
+      "section": "special-lunch",
+      "file": "pasta-lunch",
+      "authoring": "shared",
+      "content_path": "content/_shared/special-lunch/pasta-lunch.md"
+    },
+    {
+      "section": "special-lunch",
+      "file": "pizzetta-lunch",
+      "authoring": "shared",
+      "content_path": "content/_shared/special-lunch/pizzetta-lunch.md"
+    },
+    {
+      "section": "wines",
+      "file": "prosecco-il-soller",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/prosecco-il-soller.md"
+    },
+    {
+      "section": "wines",
+      "file": "prosecco-ruiol-castei",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/prosecco-ruiol-castei.md"
+    },
+    {
+      "section": "wines",
+      "file": "prosecco-torri-credazzo",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/prosecco-torri-credazzo.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-aglianico-primitivo",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-aglianico-primitivo.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-amarone",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-amarone.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-gigino-grande",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-gigino-grande.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-gigino-rosso",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-gigino-rosso.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-governo-toscana",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-governo-toscana.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-il-potere",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-il-potere.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-ngudra-primitivo",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-ngudra-primitivo.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-opera",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-opera.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-passone",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-passone.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-primitivo-salento",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-primitivo-salento.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-ripasso-valpolicella",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-ripasso-valpolicella.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-sangiovese-toscana",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-sangiovese-toscana.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-sir-passo",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-sir-passo.md"
+    },
+    {
+      "section": "wines",
+      "file": "red-vecciano-toscana",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/red-vecciano-toscana.md"
+    },
+    {
+      "section": "wines",
+      "file": "rose-primitivo-puglia",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/rose-primitivo-puglia.md"
+    },
+    {
+      "section": "wines",
+      "file": "rose-vecciano-toscana",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/rose-vecciano-toscana.md"
+    },
+    {
+      "section": "wines",
+      "file": "white-casali-langhe",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/white-casali-langhe.md"
+    },
+    {
+      "section": "wines",
+      "file": "white-chardonnay-sicilia",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/white-chardonnay-sicilia.md"
+    },
+    {
+      "section": "wines",
+      "file": "white-fiano-salento",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/white-fiano-salento.md"
+    },
+    {
+      "section": "wines",
+      "file": "white-gigino",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/white-gigino.md"
+    },
+    {
+      "section": "wines",
+      "file": "white-levantae",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/white-levantae.md"
+    },
+    {
+      "section": "wines",
+      "file": "white-vecciano-toscana",
+      "authoring": "shared",
+      "content_path": "content/_shared/wines/white-vecciano-toscana.md"
+    }
+  ],
+  "location": [],
+  "generated_at": "2026-10-16T17:24:51.457201+00:00"
+}

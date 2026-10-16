@@ -1,5 +1,6 @@
 locations:
-  - address: "Grand Bazzar"
+  - slug: valsayn
+    address: "Grand Bazzar"
     city: "Valsayn"
     island: "Trinidad"
     latlon: [10.631143,-61.427000]
@@ -13,7 +14,8 @@ locations:
     opening_hours:
       mode: "Auto"
 
-  - address: "Shops of Arima"
+  - slug: arima
+    address: "Shops of Arima"
     city: "Arima"
     island: "Trinidad"
     latlon: [10.609341,-61.271587]
@@ -27,7 +29,8 @@ locations:
     opening_hours:
       mode: "Auto"
 
-  - address: "Maraval Plaza"
+  - slug: maraval
+    address: "Maraval Plaza"
     city: "Maraval"
     island: "Trinidad"
     latlon: [10.687043,-61.521332]
@@ -41,7 +44,8 @@ locations:
     opening_hours:
       mode: "Auto"
 
-  - address: "Valpark Plaza"
+  - slug: valpark
+    address: "Valpark Plaza"
     city: "Valpark"
     island: "Trinidad"
     latlon: [10.633530,-61.418599]
@@ -54,4 +58,3 @@ locations:
     delivery:
     opening_hours:
       mode: "Auto"
-
